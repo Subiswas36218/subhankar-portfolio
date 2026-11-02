@@ -1,3 +1,4 @@
+
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Sparkles } from 'lucide-react'
 
 export default function Hero() {
@@ -12,7 +13,7 @@ export default function Hero() {
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl dark:text-slate-300">I’m <strong className="text-slate-900 dark:text-white">Subhankar Biswas</strong>, an M.Sc. Data Engineering student focused on data pipelines, databases, analytics, AI/ML, NLP and intelligent data platforms.</p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#projects" className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-5 py-3.5 font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-600 dark:bg-white dark:text-slate-950 dark:hover:bg-indigo-200">Explore Projects <ArrowUpRight size={18}/></a>
-            <a href="/resume.pdf" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-5 py-3.5 font-semibold text-slate-800 transition hover:-translate-y-0.5 hover:border-indigo-400 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">Download Resume <ArrowDown size={18}/></a>
+            <a href="./resume.pdf" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-5 py-3.5 font-semibold text-slate-800 transition hover:-translate-y-0.5 hover:border-indigo-400 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100">Download Resume <ArrowDown size={18}/></a>
           </div>
           <div className="mt-8 flex items-center gap-3">
             <a href="https://github.com/Subiswas36218" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-indigo-600 dark:text-slate-300 dark:hover:text-indigo-400"><Github size={18}/> GitHub</a>
