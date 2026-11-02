@@ -1,4 +1,3 @@
-
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Sparkles } from 'lucide-react'
 
 export default function Hero() {
@@ -24,7 +23,10 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-md">
           <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-indigo-500/20 to-cyan-500/10 blur-2xl animate-glow" />
           <div className="relative rounded-[2rem] border border-slate-200 bg-white p-6 shadow-2xl dark:border-slate-800 dark:bg-slate-900">
-            <div className="flex items-center gap-3 border-b border-slate-200 pb-5 dark:border-slate-800"><div className="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-indigo-600 to-cyan-500 font-bold text-white">SB</div><div><p className="font-bold text-slate-950 dark:text-white">Subhankar Biswas</p><p className="text-sm text-slate-500">M.Sc. Data Engineering</p></div></div>
+            <div className="flex items-center gap-3 border-b border-slate-200 pb-5 dark:border-slate-800">
+              <img src="./profile.jpg" alt="Portrait of Subhankar Biswas" className="h-12 w-12 rounded-2xl object-cover object-top ring-2 ring-indigo-500/30"/>
+              <div><p className="font-bold text-slate-950 dark:text-white">Subhankar Biswas</p><p className="text-sm text-slate-500">M.Sc. Data Engineering</p></div>
+            </div>
             <div className="grid grid-cols-2 gap-3 py-6">
               {[['27', 'Repositories'], ['Python', 'Core language'], ['SQL', 'Data foundation'], ['AI + Data', 'Focus']].map(([a,b]) => <div key={b} className="rounded-2xl bg-slate-50 p-4 dark:bg-slate-800/60"><p className="text-xl font-black text-slate-950 dark:text-white">{a}</p><p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{b}</p></div>)}
             </div>
